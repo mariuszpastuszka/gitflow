@@ -6,4 +6,12 @@ public class Footer {
     public Footer(String footer) {
         this.footer = footer;
     }
+
+    public String getFooter() {
+        return footer;
+    }
+
+    public void setFooter(String footer) {
+        this.footer = footer;
+    }
 }
