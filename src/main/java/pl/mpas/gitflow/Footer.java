@@ -14,4 +14,11 @@ public class Footer {
     public void setFooter(String footer) {
         this.footer = footer;
     }
+
+    @Override
+    public String toString() {
+        return "Footer{" +
+                "footer='" + footer + '\'' +
+                '}';
+    }
 }
